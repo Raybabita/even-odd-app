@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 110px;
+  padding-left: 110px;
+  border-radius: 5px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f172a;
+}
+.display-count {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: #334155;
+}
+.btn {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.description {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+  text-align: center;
+}
